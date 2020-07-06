@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        #ps{ 
+            width: 200px;
+            color: red;
+            border: 1px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com ">
+        <input type="text" name="user" id="user" placeholder="enter your name">
+        <br><br>
+        <input type="password" name="pw" id="ps" placeholder="please enter your password">
+        <br><br>
+        <input type="radio" name="gender" value="erkek">erkek <!-- nameler aynı olursa sadece biri secilir ama name gender2 olsaydı ikiside secileblirdi-->
+        <input type="radio" name="gender" value="kadın"> kadın
+        <br><br>
+        <select name="memleket" id="memleket">
+            <option value="antalya">antalya</option>
+            <option value="sivas">sivas</option>
+        </select>
+        <br><br>
+        <input type="submit" value="gonder"> <!-- submit butuno form action daki url goturur-->
+
+    </form> 
+    <br><br>
+    <form method="POST">
+        <input type="text" name="user" id="user" placeholder="enter your name">
+        <br><br>
+        <input type="password" name="pw" id="ps" placeholder="please enter your password">
+        <br><br>
+        <input type="radio" name="gender" value="erkek">erkek <!-- nameler aynı olursa sadece biri secilir ama name gender2 olsaydı ikiside secileblirdi-->
+        <input type="radio" name="gender" value="kadın"> kadın
+        <br><br>
+        <input type="submit" value="gonder"> <!-- submit butuno form action daki url goturur-->
+
+
+
+    </form>
+</body>
+</html>
